@@ -4,6 +4,12 @@ local Fluent = loadstring(game:HttpGet("https://github.com/dawid-scripts/Fluent/
 ```
 --------------------------------------------------------------------------------------
 
+# Creating the Save Manager
+```lua
+local SaveManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/dawid-scripts/Fluent/master/Addons/SaveManager.lua"))()
+```
+--------------------------------------------------------------------------------------
+
 # Creating a Window
 ```lua
 local Window = Fluent:CreateWindow({

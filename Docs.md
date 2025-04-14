@@ -262,3 +262,45 @@ SaveManager:LoadAutoloadConfig()
 # Updating Modules
 
 -------------------------------------------------------------------------------------
+
+## Updating Toggles
+```lua
+ Toggle:SetValue(false)
+```
+--------------------------------------------------------------------------------------
+
+## Updating Sliders
+```lua
+Slider:SetValue(3)
+```
+--------------------------------------------------------------------------------------
+
+## Updating Dropdowns
+```lua
+    Dropdown:SetValue("four")
+```
+--------------------------------------------------------------------------------------
+
+## Updating Multi-Dropdowns
+```lua
+        MultiDropdown:SetValue({
+        three = true,
+        five = true,
+        seven = false
+    })
+```
+--------------------------------------------------------------------------------------
+
+## Updating Colorpickers
+```lua
+    Colorpicker:SetValueRGB(Color3.fromRGB(0, 255, 140))
+```
+--------------------------------------------------------------------------------------
+
+## Updating Keybinds
+```lua
+    Keybind:SetValue("MB2", "Toggle")
+```
+--------------------------------------------------------------------------------------
+
+# Created By Solentra on discord.

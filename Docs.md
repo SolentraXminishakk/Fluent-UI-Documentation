@@ -27,3 +27,12 @@ local Window = Fluent:CreateWindow({
     Theme = "Dark",
     MinimizeKey = Enum.KeyCode.LeftControl -- Used when theres no MinimizeKeybind
 })
+```
+--------------------------------------------------------------------------------------
+
+# Interface Manager Configuration (REQUIRED FOR INTERFACE MANAGER TO WORK)
+```lua
+InterfaceManager:SetLibrary(Fluent)
+InterfaceManager:BuildInterfaceSection(Tabs.Settings)
+```
+--------------------------------------------------------------------------------------

@@ -101,11 +101,11 @@ Fluent:Notify({
 
 ## Toggles
 ```lua
-    local Toggle = Tabs.Main:AddToggle("MyToggle", {Title = "Toggle", Default = false })
+local Toggle = Tabs.Main:AddToggle("MyToggle", {Title = "Toggle", Default = false })
 
-    Toggle:OnChanged(function()
-        print("Toggle changed:", MyToggle.Value)
-    end)
+Toggle:OnChanged(function()
+    print("Toggle changed:", Toggle.Value)
+end)
 ```
 --------------------------------------------------------------------------------------
 

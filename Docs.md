@@ -4,19 +4,19 @@ local Fluent = loadstring(game:HttpGet("https://github.com/dawid-scripts/Fluent/
 ```
 --------------------------------------------------------------------------------------
 
-# Creating the Save Manager
+## Creating the Save Manager
 ```lua
 local SaveManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/dawid-scripts/Fluent/master/Addons/SaveManager.lua"))()
 ```
 --------------------------------------------------------------------------------------
 
-# Loading Interface Manager
+## Loading Interface Manager
 ```lua
 local InterfaceManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/dawid-scripts/Fluent/master/Addons/InterfaceManager.lua"))()
 ```
 --------------------------------------------------------------------------------------
 
-# Creating a Window
+## Creating a Window
 ```lua
 local Window = Fluent:CreateWindow({
     Title = "Fluent " .. Fluent.Version,
@@ -30,7 +30,7 @@ local Window = Fluent:CreateWindow({
 ```
 --------------------------------------------------------------------------------------
 
-# Tabs
+## Tabs
 ```lua
 local Tabs = {
     Main = Window:AddTab({ Title = "Main", Icon = "" }), --Copy this for more tabs
@@ -39,7 +39,7 @@ local Tabs = {
 ```
 --------------------------------------------------------------------------------------
 
-# Notifications
+## Notifications
 ```lua
 Fluent:Notify({
         Title = "Notification",
@@ -50,7 +50,7 @@ Fluent:Notify({
 ```
 --------------------------------------------------------------------------------------
 
-# Buttons
+## Buttons
 ```lua
     Tabs.Main:AddButton({
         Title = "Button",
@@ -79,7 +79,7 @@ Fluent:Notify({
 ```
 --------------------------------------------------------------------------------------
 
-# Sliders
+## Sliders
 ```lua
     local Slider = Tabs.Main:AddSlider("Slider", {
         Title = "Slider",
@@ -99,7 +99,7 @@ Fluent:Notify({
 ```
 --------------------------------------------------------------------------------------
 
-# Toggles
+## Toggles
 ```lua
     local Toggle = Tabs.Main:AddToggle("MyToggle", {Title = "Toggle", Default = false })
 
@@ -109,7 +109,7 @@ Fluent:Notify({
 ```
 --------------------------------------------------------------------------------------
 
-# Dropdowns
+## Dropdowns
 ```lua
     local Dropdown = Tabs.Main:AddDropdown("Dropdown", {
         Title = "Dropdown",
@@ -124,7 +124,7 @@ Fluent:Notify({
 ```
 --------------------------------------------------------------------------------------
 
-# Multi-Dropdowns
+## Multi-Dropdowns
 ```lua
     local MultiDropdown = Tabs.Main:AddDropdown("MultiDropdown", {
         Title = "Dropdown",
@@ -144,7 +144,7 @@ MultiDropdown:OnChanged(function(Value)
 ```
 --------------------------------------------------------------------------------------
 
-# Multi-Dropdowns
+## Multi-Dropdowns
 ```lua
     local MultiDropdown = Tabs.Main:AddDropdown("MultiDropdown", {
         Title = "Dropdown",
@@ -164,7 +164,7 @@ MultiDropdown:OnChanged(function(Value)
 ```
 --------------------------------------------------------------------------------------
 
-# Interface Manager Configuration (REQUIRED FOR INTERFACE MANAGER TO WORK)
+## Interface Manager Configuration (REQUIRED FOR INTERFACE MANAGER TO WORK)
 ```lua
 InterfaceManager:SetLibrary(Fluent)
 InterfaceManager:BuildInterfaceSection(Tabs.Settings)

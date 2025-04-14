@@ -277,29 +277,29 @@ Slider:SetValue(3)
 
 ## Updating Dropdowns
 ```lua
-    Dropdown:SetValue("four")
+Dropdown:SetValue("four")
 ```
 --------------------------------------------------------------------------------------
 
 ## Updating Multi-Dropdowns
 ```lua
-        MultiDropdown:SetValue({
-        three = true,
-        five = true,
-        seven = false
-    })
+MultiDropdown:SetValue({
+three = true,
+five = true,
+seven = false
+})
 ```
 --------------------------------------------------------------------------------------
 
 ## Updating Colorpickers
 ```lua
-    Colorpicker:SetValueRGB(Color3.fromRGB(0, 255, 140))
+Colorpicker:SetValueRGB(Color3.fromRGB(0, 255, 140))
 ```
 --------------------------------------------------------------------------------------
 
 ## Updating Keybinds
 ```lua
-    Keybind:SetValue("MB2", "Toggle")
+Keybind:SetValue("MB2", "Toggle")
 ```
 --------------------------------------------------------------------------------------
 

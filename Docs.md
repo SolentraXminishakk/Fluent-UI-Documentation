@@ -284,9 +284,9 @@ Dropdown:SetValue("four")
 ## Updating Multi-Dropdowns
 ```lua
 MultiDropdown:SetValue({
-three = true,
-five = true,
-seven = false
+    three = true,
+    five = true,
+    seven = false
 })
 ```
 --------------------------------------------------------------------------------------

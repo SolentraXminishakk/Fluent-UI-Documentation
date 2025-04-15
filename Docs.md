@@ -265,7 +265,7 @@ SaveManager:LoadAutoloadConfig()
 
 ## Updating Toggles
 ```lua
- Toggle:SetValue(false)
+Toggle:SetValue(false)
 ```
 --------------------------------------------------------------------------------------
 

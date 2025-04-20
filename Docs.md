@@ -79,6 +79,12 @@ Fluent:Notify({
 ```
 --------------------------------------------------------------------------------------
 
+## Sections
+```lua
+    local Section = Tabs.Main:AddSection("Section")
+```
+--------------------------------------------------------------------------------------
+
 ## Sliders
 ```lua
     local Slider = Tabs.Main:AddSlider("Slider", {
